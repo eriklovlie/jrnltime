@@ -1,14 +1,24 @@
 # jrnltime - Simple time tracking using jrnl
 
-The point of this script is that if you use jrnl already (for dev-diary or other notes)
+The point of this script is that if you use jrnl[0] already (for dev-diary or other notes)
 you might as well also use it for time tracking. This is done by adding the tag "@time"
 to log entries.
 
-There are two types of @time entries used for separate things.
+[0]: http://maebert.github.io/jrnl
+
+## TL;DR:
+
+  pip install jrnl
+  jrnl "workstart @time"
+  jrnl "Spent some time on the foo @time{1h,overhead}"
+  jrnl "Spent some time reviewing the bar @time{30m,review}"
+  jrnl "workend @time"
+  jrnltime.py
+
 
 ## Working hours
 
-The first is for tracking working hours and hours-in-lieu. This is based on adding pairs
+One mode is for tracking working hours and hours-in-lieu. This is based on adding pairs
 of log entries with "workstart" and "workend" somewhere in the log text. Other @time
 entries (without workstart/workend) are not used for tracking working hours.
 
