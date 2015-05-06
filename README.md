@@ -8,13 +8,12 @@ to log entries.
 
 ## TL;DR:
 
-  pip install jrnl
-  jrnl "workstart @time"
-  jrnl "Spent some time on the foo @time{1h,overhead}"
-  jrnl "Spent some time reviewing the bar @time{30m,review}"
-  jrnl "workend @time"
-  jrnltime.py
-
+    pip install jrnl
+    jrnl "workstart @time"
+    jrnl "Spent some time on the foo @time{1h,overhead}"
+    jrnl "Spent some time reviewing the bar @time{30m,review}"
+    jrnl "workend @time"
+    jrnltime.py
 
 ## Working hours
 
