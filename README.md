@@ -1,10 +1,10 @@
 # jrnltime - Simple time tracking using jrnl
 
-The point of this script is that if you use jrnl[0] already (for dev-diary or other notes)
+The point of this script is that if you use [jrnl] already (for dev-diary or other notes)
 you might as well also use it for time tracking. This is done by adding the tag "@time"
 to log entries.
 
-[0]: http://maebert.github.io/jrnl
+[jrnl]: http://maebert.github.io/jrnl
 
 ## TL;DR:
 
